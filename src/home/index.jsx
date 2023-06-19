@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './style.css'
-
+import equalsImg from '../assets/Equals.svg'
 
 
 const Home = () => {
@@ -68,7 +68,7 @@ const Home = () => {
       <section className='calculo'>
         <p>{oldNumber} {operator} {history}</p>
         <div>
-          <img src="../../src/assets/Equals.svg" alt="equals img" />
+          <img src={equalsImg} alt="equals img" />
           <h2>{number}</h2>
         </div>
       </section>
