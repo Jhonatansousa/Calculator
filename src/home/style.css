@@ -1,0 +1,73 @@
+main {
+  padding-top: 5.4rem;
+  width: 35.6rem;
+  height: 56.6rem;
+  background-color: #2d2a37;
+  border-radius: 48px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 188px 52px rgba(0, 0, 0, 0.01), 0px 120px 48px rgba(0, 0, 0, 0.04), 0px 68px 41px rgba(0, 0, 0, 0.15), 0px 30px 30px rgba(0, 0, 0, 0.26), 0px 8px 17px rgba(0, 0, 0, 0.29), inset 0px 6px 8px rgba(255, 255, 255, 0.1), inset 0px -4px 5px rgba(0, 0, 0, 0.22);
+}
+
+.calculo {
+  width: 28.8rem;
+  height: 8.6rem;
+  padding: 0 2.2rem 0 1.8rem;
+  margin: 0 auto 2.6rem auto;
+}
+.calculo p {
+  max-width: 24.8rem;
+  height: 2.8rem;
+  margin-bottom: 0.8rem;
+  color: #6b6b6b;
+  font-size: 2rem;
+  text-align: end;
+}
+.calculo div {
+  width: 24.8rem;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ebebeb;
+}
+.calculo div h2 {
+  font-size: 3.6rem;
+  max-width: 22.8rem;
+  overflow: auto;
+}
+
+.secaoTeclado {
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 5;
+  grid-column-gap: 1.2rem;
+  grid-row-gap: 1.2rem;
+  place-items: center;
+}
+.secaoTeclado .botaoLimpar {
+  color: #975dfa;
+}
+.secaoTeclado .operador {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0.01%, rgba(255, 255, 255, 0.05) 100%), linear-gradient(0deg, #462878, #462878);
+}
+.secaoTeclado .equalButton {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), linear-gradient(0deg, #7F45E2, #7F45E2);
+}
+.secaoTeclado button {
+  font-size: 2.4rem;
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+  border: none;
+  color: #EBEBEB;
+  cursor: pointer;
+  box-shadow: 0px 2px 3px 0px rgba(255, 255, 255, 0.0588235294) inset, 0px 0px 2px 0px rgba(0, 0, 0, 0.2901960784), 0px 2px 4px 0px rgba(0, 0, 0, 0.2588235294), 0px 4px 6px 0px rgba(0, 0, 0, 0.1019607843), 0px 7px 7px 0px rgba(0, 0, 0, 0.0392156863), 0px 11px 7px 0px rgba(0, 0, 0, 0.0117647059);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), linear-gradient(0deg, #2D2A37, #2D2A37);
+}
+.secaoTeclado button:hover {
+  transform: scale(1.07);
+  transition: 0.1s;
+}
+.secaoTeclado button:active {
+  transform: scale(0.93);
+}/*# sourceMappingURL=style.css.map */
